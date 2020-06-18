@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,11 +25,12 @@ F 3 "http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12
 F 4 "STMicroelectronics" H 1600 5225 50  0001 C CNN "MFN"
 F 5 "STM32F405RGT6" H 1600 5225 50  0001 C CNN "MFP"
 F 6 "LQFP-64" H 1600 5225 50  0001 C CNN "Package"
+F 7 "C15742" H 5800 3200 50  0001 C CNN "LCSC"
 	1    5800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 JP6
+L sequencer-rescue:Conn_01x06-Connector_Generic JP6
 U 1 1 59DB9577
 P 3400 6800
 AR Path="/59DB9577" Ref="JP6"  Part="1" 
@@ -44,7 +45,7 @@ F 5 "68002-106HLF" H 3400 7200 50  0001 C CNN "MFP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR055
+L sequencer-rescue:GND-power #PWR055
 U 1 1 59DB9615
 P 3700 7100
 F 0 "#PWR055" H 3700 6850 50  0001 C CNN
@@ -55,7 +56,7 @@ F 3 "" H 3700 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even JP4
+L sequencer-rescue:Conn_02x05_Odd_Even-Connector_Generic JP4
 U 1 1 59DB9B82
 P 1400 6800
 F 0 "JP4" H 1450 7100 50  0000 C CNN
@@ -68,7 +69,7 @@ F 5 "20021111-00010T4LF" H 1450 7200 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR056
+L sequencer-rescue:+3.3V-power #PWR056
 U 1 1 59DB9CCC
 P 1100 6500
 F 0 "#PWR056" H 1100 6350 50  0001 C CNN
@@ -79,7 +80,7 @@ F 3 "" H 1100 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR057
+L sequencer-rescue:GND-power #PWR057
 U 1 1 59DB9CF4
 P 1100 7100
 F 0 "#PWR057" H 1100 6850 50  0001 C CNN
@@ -90,7 +91,7 @@ F 3 "" H 1100 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR058
+L sequencer-rescue:+3.3V-power #PWR058
 U 1 1 59DB9EAC
 P 5500 1000
 F 0 "#PWR058" H 5500 850 50  0001 C CNN
@@ -101,7 +102,7 @@ F 3 "" H 5500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR059
+L sequencer-rescue:+3.3VA-power #PWR059
 U 1 1 59DB9EE7
 P 6000 1000
 F 0 "#PWR059" H 6000 850 50  0001 C CNN
@@ -112,7 +113,7 @@ F 3 "" H 6000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L sequencer-rescue:GND-power #PWR060
 U 1 1 59DB9FE7
 P 5800 5400
 F 0 "#PWR060" H 5800 5150 50  0001 C CNN
@@ -123,7 +124,7 @@ F 3 "" H 5800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
+L sequencer-rescue:Crystal-Device Y1
 U 1 1 59DBA308
 P 7500 5750
 F 0 "Y1" H 7500 5900 50  0000 C CNN
@@ -136,7 +137,7 @@ F 5 "ABM3-8.000MHZ-D2Y-T" H 7500 6000 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C41
+L sequencer-rescue:C-Device C41
 U 1 1 59DBA373
 P 7250 5500
 F 0 "C41" H 7275 5600 50  0000 L CNN
@@ -146,11 +147,12 @@ F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.
 F 4 "Murata" H 7275 5700 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 7275 5700 50  0001 C CNN "MFP"
 F 6 "0603" H 7275 5700 50  0001 C CNN "Package"
+F 7 "C1647" H 7250 5500 50  0001 C CNN "LCSC"
 	1    7250 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C42
+L sequencer-rescue:C-Device C42
 U 1 1 59DBA3A0
 P 7250 6000
 F 0 "C42" H 7275 6100 50  0000 L CNN
@@ -164,7 +166,7 @@ F 6 "0603" H 7275 6200 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR061
+L sequencer-rescue:GND-power #PWR061
 U 1 1 59DBA437
 P 7000 6100
 F 0 "#PWR061" H 7000 5850 50  0001 C CNN
@@ -175,7 +177,7 @@ F 3 "" H 7000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L sequencer-rescue:C-Device C23
 U 1 1 59DBB4BE
 P 1150 2050
 F 0 "C23" H 1175 2150 50  0000 L CNN
@@ -189,7 +191,7 @@ F 6 "0805" H 1175 2250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C18
+L sequencer-rescue:C-Device C18
 U 1 1 59DBB504
 P 1150 2250
 F 0 "C18" H 1175 2350 50  0000 L CNN
@@ -203,7 +205,7 @@ F 6 "0805" H 1175 2450 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR062
+L sequencer-rescue:GND-power #PWR062
 U 1 1 59DBB736
 P 800 2250
 F 0 "#PWR062" H 800 2000 50  0001 C CNN
@@ -214,7 +216,7 @@ F 3 "" H 800 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW19
+L sequencer-rescue:SW_Push-Switch SW19
 U 1 1 59DD439D
 P 5800 6400
 F 0 "SW19" H 5850 6500 50  0000 L CNN
@@ -227,7 +229,7 @@ F 5 "EVQ-Q2K01W" H 5850 6600 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW8
+L sequencer-rescue:SW_Push-Switch SW8
 U 1 1 59DD44E7
 P 5200 6900
 F 0 "SW8" H 5250 7000 50  0000 L CNN
@@ -240,7 +242,7 @@ F 5 "EVQ-Q2K01W" H 5250 7100 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R82
+L sequencer-rescue:R-Device R82
 U 1 1 59DD490D
 P 5200 6350
 F 0 "R82" V 5280 6350 50  0000 C CNN
@@ -254,7 +256,7 @@ F 6 "0603" H 5280 6450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R79
+L sequencer-rescue:R-Device R79
 U 1 1 59DD4953
 P 5800 6950
 F 0 "R79" V 5880 6950 50  0000 C CNN
@@ -268,7 +270,7 @@ F 6 "0603" H 5880 7050 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR063
+L sequencer-rescue:+3.3V-power #PWR063
 U 1 1 59DD49A9
 P 5200 6100
 F 0 "#PWR063" H 5200 5950 50  0001 C CNN
@@ -279,7 +281,7 @@ F 3 "" H 5200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR064
+L sequencer-rescue:+3.3V-power #PWR064
 U 1 1 59DD49E1
 P 5800 6100
 F 0 "#PWR064" H 5800 5950 50  0001 C CNN
@@ -290,7 +292,7 @@ F 3 "" H 5800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR065
+L sequencer-rescue:GND-power #PWR065
 U 1 1 59DD4A83
 P 5200 7200
 F 0 "#PWR065" H 5200 6950 50  0001 C CNN
@@ -301,7 +303,7 @@ F 3 "" H 5200 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR066
+L sequencer-rescue:GND-power #PWR066
 U 1 1 59DD4ABB
 P 5800 7200
 F 0 "#PWR066" H 5800 6950 50  0001 C CNN
@@ -312,7 +314,7 @@ F 3 "" H 5800 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C30
+L sequencer-rescue:C-Device C30
 U 1 1 59E34530
 P 8600 5750
 F 0 "C30" H 8625 5850 50  0000 L CNN
@@ -326,7 +328,7 @@ F 6 "0603" H 8625 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C32
+L sequencer-rescue:C-Device C32
 U 1 1 59E345BC
 P 8900 5750
 F 0 "C32" H 8925 5850 50  0000 L CNN
@@ -340,7 +342,7 @@ F 6 "0603" H 8925 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L sequencer-rescue:C-Device C20
 U 1 1 59E34607
 P 9200 5750
 F 0 "C20" H 9225 5850 50  0000 L CNN
@@ -354,7 +356,7 @@ F 6 "0603" H 9225 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L sequencer-rescue:C-Device C17
 U 1 1 59E34648
 P 9500 5750
 F 0 "C17" H 9525 5850 50  0000 L CNN
@@ -368,7 +370,7 @@ F 6 "0603" H 9525 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR067
+L sequencer-rescue:+3.3V-power #PWR067
 U 1 1 59E34B90
 P 8500 5400
 F 0 "#PWR067" H 8500 5250 50  0001 C CNN
@@ -379,7 +381,7 @@ F 3 "" H 8500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR068
+L sequencer-rescue:GND-power #PWR068
 U 1 1 59E34BD4
 P 8500 6100
 F 0 "#PWR068" H 8500 5850 50  0001 C CNN
@@ -390,7 +392,7 @@ F 3 "" H 8500 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR069
+L sequencer-rescue:+3.3VA-power #PWR069
 U 1 1 59E35078
 P 9900 5400
 F 0 "#PWR069" H 9900 5250 50  0001 C CNN
@@ -401,7 +403,7 @@ F 3 "" H 9900 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR070
+L sequencer-rescue:GND-power #PWR070
 U 1 1 59E350BC
 P 9900 6100
 F 0 "#PWR070" H 9900 5850 50  0001 C CNN
@@ -412,7 +414,7 @@ F 3 "" H 9900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C39
+L sequencer-rescue:C-Device C39
 U 1 1 59E35219
 P 10000 5750
 F 0 "C39" H 10025 5850 50  0000 L CNN
@@ -422,11 +424,12 @@ F 3 "http://datasheet.octopart.com/GRM188R61A105KA61J-Murata-datasheet-66077091.
 F 4 "Murata" H 10025 5950 50  0001 C CNN "MFN"
 F 5 "GRM188R61A105KA61J" H 10025 5950 50  0001 C CNN "MFP"
 F 6 "0603" H 10025 5950 50  0001 C CNN "Package"
+F 7 "C15849" H 10000 5750 50  0001 C CNN "LCSC"
 	1    10000 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C36
+L sequencer-rescue:C-Device C36
 U 1 1 59E3526B
 P 10300 5750
 F 0 "C36" H 10325 5850 50  0000 L CNN
@@ -440,7 +443,7 @@ F 6 "0603" H 10325 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG071
+L sequencer-rescue:PWR_FLAG-power #FLG071
 U 1 1 59F48B1D
 P 1400 2300
 F 0 "#FLG071" H 1400 2375 50  0001 C CNN
@@ -451,7 +454,7 @@ F 3 "" H 1400 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG072
+L sequencer-rescue:PWR_FLAG-power #FLG072
 U 1 1 59F48C86
 P 1400 2000
 F 0 "#FLG072" H 1400 2075 50  0001 C CNN

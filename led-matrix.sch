@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:LED_Dual_ACA LED1
+L sequencer-rescue:LED_Dual_ACA-Device LED1
 U 1 1 59DAB354
 P 2400 1900
 F 0 "LED1" H 2400 2125 50  0000 C CNN
@@ -28,7 +28,7 @@ F 5 "LTL1BEKVJNN" H 2400 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED5
+L sequencer-rescue:LED_Dual_ACA-Device LED5
 U 1 1 59DAB3C2
 P 2400 2700
 F 0 "LED5" H 2400 2925 50  0000 C CNN
@@ -41,7 +41,7 @@ F 5 "LTL1BEKVJNN" H 2400 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED15
+L sequencer-rescue:LED_Dual_ACA-Device LED15
 U 1 1 59DAB418
 P 2400 3500
 F 0 "LED15" H 2400 3725 50  0000 C CNN
@@ -54,7 +54,7 @@ F 5 "LTL1BEKVJNN" H 2400 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED25
+L sequencer-rescue:LED_Dual_ACA-Device LED25
 U 1 1 59DAB41E
 P 2400 4300
 F 0 "LED25" H 2400 4525 50  0000 C CNN
@@ -67,7 +67,7 @@ F 5 "LTL1BEKVJNN" H 2400 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED2
+L sequencer-rescue:LED_Dual_ACA-Device LED2
 U 1 1 59DAB4C6
 P 3300 1900
 F 0 "LED2" H 3300 2125 50  0000 C CNN
@@ -80,7 +80,7 @@ F 5 "LTL1BEKVJNN" H 3300 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED6
+L sequencer-rescue:LED_Dual_ACA-Device LED6
 U 1 1 59DAB4CC
 P 3300 2700
 F 0 "LED6" H 3300 2925 50  0000 C CNN
@@ -93,7 +93,7 @@ F 5 "LTL1BEKVJNN" H 3300 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED16
+L sequencer-rescue:LED_Dual_ACA-Device LED16
 U 1 1 59DAB4D2
 P 3300 3500
 F 0 "LED16" H 3300 3725 50  0000 C CNN
@@ -106,7 +106,7 @@ F 5 "LTL1BEKVJNN" H 3300 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED26
+L sequencer-rescue:LED_Dual_ACA-Device LED26
 U 1 1 59DAB4D8
 P 3300 4300
 F 0 "LED26" H 3300 4525 50  0000 C CNN
@@ -119,7 +119,7 @@ F 5 "LTL1BEKVJNN" H 3300 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED3
+L sequencer-rescue:LED_Dual_ACA-Device LED3
 U 1 1 59DAB5EE
 P 4200 1900
 F 0 "LED3" H 4200 2125 50  0000 C CNN
@@ -132,7 +132,7 @@ F 5 "LTL1BEKVJNN" H 4200 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED7
+L sequencer-rescue:LED_Dual_ACA-Device LED7
 U 1 1 59DAB5F4
 P 4200 2700
 F 0 "LED7" H 4200 2925 50  0000 C CNN
@@ -145,7 +145,7 @@ F 5 "LTL1BEKVJNN" H 4200 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED17
+L sequencer-rescue:LED_Dual_ACA-Device LED17
 U 1 1 59DAB5FA
 P 4200 3500
 F 0 "LED17" H 4200 3725 50  0000 C CNN
@@ -158,7 +158,7 @@ F 5 "LTL1BEKVJNN" H 4200 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED27
+L sequencer-rescue:LED_Dual_ACA-Device LED27
 U 1 1 59DAB600
 P 4200 4300
 F 0 "LED27" H 4200 4525 50  0000 C CNN
@@ -171,7 +171,7 @@ F 5 "LTL1BEKVJNN" H 4200 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED4
+L sequencer-rescue:LED_Dual_ACA-Device LED4
 U 1 1 59DAB606
 P 5100 1900
 F 0 "LED4" H 5100 2125 50  0000 C CNN
@@ -184,7 +184,7 @@ F 5 "LTL1BEKVJNN" H 5100 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED8
+L sequencer-rescue:LED_Dual_ACA-Device LED8
 U 1 1 59DAB60C
 P 5100 2700
 F 0 "LED8" H 5100 2925 50  0000 C CNN
@@ -197,7 +197,7 @@ F 5 "LTL1BEKVJNN" H 5100 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED18
+L sequencer-rescue:LED_Dual_ACA-Device LED18
 U 1 1 59DAB612
 P 5100 3500
 F 0 "LED18" H 5100 3725 50  0000 C CNN
@@ -210,7 +210,7 @@ F 5 "LTL1BEKVJNN" H 5100 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED28
+L sequencer-rescue:LED_Dual_ACA-Device LED28
 U 1 1 59DAB618
 P 5100 4300
 F 0 "LED28" H 5100 4525 50  0000 C CNN
@@ -223,7 +223,7 @@ F 5 "LTL1BEKVJNN" H 5100 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED13
+L sequencer-rescue:LED_Dual_ACA-Device LED13
 U 1 1 59DAB7AE
 P 6000 1900
 F 0 "LED13" H 6000 2125 50  0000 C CNN
@@ -236,7 +236,7 @@ F 5 "LTL1BEKVJNN" H 6000 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED9
+L sequencer-rescue:LED_Dual_ACA-Device LED9
 U 1 1 59DAB7B4
 P 6000 2700
 F 0 "LED9" H 6000 2925 50  0000 C CNN
@@ -249,7 +249,7 @@ F 5 "LTL1BEKVJNN" H 6000 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED19
+L sequencer-rescue:LED_Dual_ACA-Device LED19
 U 1 1 59DAB7BA
 P 6000 3500
 F 0 "LED19" H 6000 3725 50  0000 C CNN
@@ -262,7 +262,7 @@ F 5 "LTL1BEKVJNN" H 6000 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED29
+L sequencer-rescue:LED_Dual_ACA-Device LED29
 U 1 1 59DAB7C0
 P 6000 4300
 F 0 "LED29" H 6000 4525 50  0000 C CNN
@@ -275,7 +275,7 @@ F 5 "LTL1BEKVJNN" H 6000 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED14
+L sequencer-rescue:LED_Dual_ACA-Device LED14
 U 1 1 59DAB7C6
 P 6900 1900
 F 0 "LED14" H 6900 2125 50  0000 C CNN
@@ -288,7 +288,7 @@ F 5 "LTL1BEKVJNN" H 6900 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED10
+L sequencer-rescue:LED_Dual_ACA-Device LED10
 U 1 1 59DAB7CC
 P 6900 2700
 F 0 "LED10" H 6900 2925 50  0000 C CNN
@@ -301,7 +301,7 @@ F 5 "LTL1BEKVJNN" H 6900 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED20
+L sequencer-rescue:LED_Dual_ACA-Device LED20
 U 1 1 59DAB7D2
 P 6900 3500
 F 0 "LED20" H 6900 3725 50  0000 C CNN
@@ -314,7 +314,7 @@ F 5 "LTL1BEKVJNN" H 6900 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED30
+L sequencer-rescue:LED_Dual_ACA-Device LED30
 U 1 1 59DAB7D8
 P 6900 4300
 F 0 "LED30" H 6900 4525 50  0000 C CNN
@@ -327,7 +327,7 @@ F 5 "LTL1BEKVJNN" H 6900 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED23
+L sequencer-rescue:LED_Dual_ACA-Device LED23
 U 1 1 59DAB7DE
 P 7800 1900
 F 0 "LED23" H 7800 2125 50  0000 C CNN
@@ -340,7 +340,7 @@ F 5 "LTL1BEKVJNN" H 7800 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED11
+L sequencer-rescue:LED_Dual_ACA-Device LED11
 U 1 1 59DAB7E4
 P 7800 2700
 F 0 "LED11" H 7800 2925 50  0000 C CNN
@@ -353,7 +353,7 @@ F 5 "LTL1BEKVJNN" H 7800 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED21
+L sequencer-rescue:LED_Dual_ACA-Device LED21
 U 1 1 59DAB7EA
 P 7800 3500
 F 0 "LED21" H 7800 3725 50  0000 C CNN
@@ -366,7 +366,7 @@ F 5 "LTL1BEKVJNN" H 7800 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED31
+L sequencer-rescue:LED_Dual_ACA-Device LED31
 U 1 1 59DAB7F0
 P 7800 4300
 F 0 "LED31" H 7800 4525 50  0000 C CNN
@@ -379,7 +379,7 @@ F 5 "LTL1BEKVJNN" H 7800 4625 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED24
+L sequencer-rescue:LED_Dual_ACA-Device LED24
 U 1 1 59DAB7F6
 P 8700 1900
 F 0 "LED24" H 8700 2125 50  0000 C CNN
@@ -392,7 +392,7 @@ F 5 "LTL1BEKVJNN" H 8700 2225 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED12
+L sequencer-rescue:LED_Dual_ACA-Device LED12
 U 1 1 59DAB7FC
 P 8700 2700
 F 0 "LED12" H 8700 2925 50  0000 C CNN
@@ -405,7 +405,7 @@ F 5 "LTL1BEKVJNN" H 8700 3025 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED22
+L sequencer-rescue:LED_Dual_ACA-Device LED22
 U 1 1 59DAB802
 P 8700 3500
 F 0 "LED22" H 8700 3725 50  0000 C CNN
@@ -418,7 +418,7 @@ F 5 "LTL1BEKVJNN" H 8700 3825 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA LED32
+L sequencer-rescue:LED_Dual_ACA-Device LED32
 U 1 1 59DAB808
 P 8700 4300
 F 0 "LED32" H 8700 4525 50  0000 C CNN

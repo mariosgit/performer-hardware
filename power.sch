@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+12V #PWR025
+L sequencer-rescue:+12V-power #PWR025
 U 1 1 59ADCE23
 P 900 1200
 F 0 "#PWR025" H 900 1050 50  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR035
+L sequencer-rescue:-12V-power #PWR035
 U 1 1 59ADCE37
 P 900 1800
 F 0 "#PWR035" H 900 1900 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 900 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even JP5
+L sequencer-rescue:Conn_02x05_Odd_Even-Connector_Generic JP5
 U 1 1 59ADD000
 P 1700 1500
 F 0 "JP5" H 1750 1800 50  0000 C CNN
@@ -50,7 +50,7 @@ F 5 "67996-410HLF" H 1750 1900 50  0001 C CNN "MFP"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D3
+L sequencer-rescue:D-Device D3
 U 1 1 59ADD0E1
 P 1150 1300
 F 0 "D3" H 1150 1400 50  0000 C CNN
@@ -60,11 +60,12 @@ F 3 "http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.p
 F 4 "Diodes Inc." H 1150 1500 50  0001 C CNN "MFN"
 F 5 "1N5819HW-7-F" H 1150 1500 50  0001 C CNN "MFP"
 F 6 "SOD-123" H 1150 1500 50  0001 C CNN "Package"
+F 7 "C117948" H 1150 1300 50  0001 C CNN "LCSC"
 	1    1150 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L sequencer-rescue:D-Device D4
 U 1 1 59ADD164
 P 1150 1700
 F 0 "D4" H 1150 1800 50  0000 C CNN
@@ -78,7 +79,7 @@ F 6 "SOD-123" H 1150 1900 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR026
+L sequencer-rescue:GND-power #PWR026
 U 1 1 59ADD2AE
 P 2300 1600
 F 0 "#PWR026" H 2300 1350 50  0001 C CNN
@@ -89,7 +90,7 @@ F 3 "" H 2300 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C13
+L sequencer-rescue:CP1-Device C13
 U 1 1 59ADD50C
 P 3000 1250
 F 0 "C13" H 3025 1350 50  0000 L CNN
@@ -103,7 +104,7 @@ F 6 "Panasonic D" H 3025 1450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR048
+L sequencer-rescue:-12V-power #PWR048
 U 1 1 59ADD571
 P 3000 2000
 F 0 "#PWR048" H 3000 2100 50  0001 C CNN
@@ -114,7 +115,7 @@ F 3 "" H 3000 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR027
+L sequencer-rescue:+12V-power #PWR027
 U 1 1 59ADD597
 P 3000 1000
 F 0 "#PWR027" H 3000 850 50  0001 C CNN
@@ -125,7 +126,7 @@ F 3 "" H 3000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L sequencer-rescue:GND-power #PWR028
 U 1 1 59ADD670
 P 2800 1600
 F 0 "#PWR028" H 2800 1350 50  0001 C CNN
@@ -136,7 +137,7 @@ F 3 "" H 2800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM1117-3.3 U7
+L sequencer-rescue:LM1117-3.3-Regulator_Linear U7
 U 1 1 59DEB84A
 P 7300 1300
 F 0 "U7" H 7150 1425 50  0000 C CNN
@@ -150,7 +151,7 @@ F 6 "SOT-223" H 7150 1525 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead L1
+L sequencer-rescue:Ferrite_Bead-Device L1
 U 1 1 59DEC32E
 P 6550 1300
 F 0 "L1" V 6400 1325 50  0000 C CNN
@@ -160,11 +161,12 @@ F 3 "http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf
 F 4 "Laird" H 6550 1300 60  0001 C CNN "MFN"
 F 5 "MI0603K300R-10" H 6550 1300 60  0001 C CNN "MFP"
 F 6 "0603" H 6400 1425 50  0001 C CNN "Package"
+F 7 "C1002" V 6550 1300 50  0001 C CNN "LCSC"
 	1    6550 1300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C24
+L sequencer-rescue:CP1-Device C24
 U 1 1 59DEC56E
 P 7800 1550
 F 0 "C24" H 7825 1650 50  0000 L CNN
@@ -178,7 +180,7 @@ F 6 "Panasonic C" H 7825 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L sequencer-rescue:C-Device C14
 U 1 1 59DEC574
 P 8100 1550
 F 0 "C14" H 8125 1650 50  0000 L CNN
@@ -192,7 +194,7 @@ F 6 "0603" H 8125 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
+L sequencer-rescue:GND-power #PWR029
 U 1 1 59DEC57A
 P 6800 1800
 F 0 "#PWR029" H 6800 1550 50  0001 C CNN
@@ -203,7 +205,7 @@ F 3 "" H 6800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L sequencer-rescue:GND-power #PWR030
 U 1 1 59DEC580
 P 7800 1800
 F 0 "#PWR030" H 7800 1550 50  0001 C CNN
@@ -214,7 +216,7 @@ F 3 "" H 7800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L sequencer-rescue:GND-power #PWR031
 U 1 1 59DEC586
 P 8100 1800
 F 0 "#PWR031" H 8100 1550 50  0001 C CNN
@@ -225,7 +227,7 @@ F 3 "" H 8100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR032
+L sequencer-rescue:+3V3-power #PWR032
 U 1 1 59DEC592
 P 8100 1200
 F 0 "#PWR032" H 8100 1050 50  0001 C CNN
@@ -236,7 +238,7 @@ F 3 "" H 8100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
+L sequencer-rescue:GND-power #PWR033
 U 1 1 59DEC598
 P 7300 1800
 F 0 "#PWR033" H 7300 1550 50  0001 C CNN
@@ -247,7 +249,7 @@ F 3 "" H 7300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM1117-3.3 U10
+L sequencer-rescue:LM1117-3.3-Regulator_Linear U10
 U 1 1 59DEC7FA
 P 9800 1300
 F 0 "U10" H 9650 1425 50  0000 C CNN
@@ -261,7 +263,7 @@ F 6 "SOT-223" H 9650 1525 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L sequencer-rescue:C-Device C31
 U 1 1 59DEC80C
 P 10600 1550
 F 0 "C31" H 10625 1650 50  0000 L CNN
@@ -275,7 +277,7 @@ F 6 "0603" H 10625 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR034
+L sequencer-rescue:GND-power #PWR034
 U 1 1 59DEC812
 P 9300 1800
 F 0 "#PWR034" H 9300 1550 50  0001 C CNN
@@ -286,7 +288,7 @@ F 3 "" H 9300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
+L sequencer-rescue:GND-power #PWR0116
 U 1 1 59DEC818
 P 10300 1800
 F 0 "#PWR0116" H 10300 1550 50  0001 C CNN
@@ -297,7 +299,7 @@ F 3 "" H 10300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR036
+L sequencer-rescue:GND-power #PWR036
 U 1 1 59DEC81E
 P 10600 1800
 F 0 "#PWR036" H 10600 1550 50  0001 C CNN
@@ -308,7 +310,7 @@ F 3 "" H 10600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR037
+L sequencer-rescue:GND-power #PWR037
 U 1 1 59DEC82A
 P 9800 1800
 F 0 "#PWR037" H 9800 1550 50  0001 C CNN
@@ -319,7 +321,7 @@ F 3 "" H 9800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR038
+L sequencer-rescue:+12V-power #PWR038
 U 1 1 59DECCAB
 P 3900 1200
 F 0 "#PWR038" H 3900 1050 50  0001 C CNN
@@ -330,7 +332,7 @@ F 3 "" H 3900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR039
+L sequencer-rescue:+3.3VA-power #PWR039
 U 1 1 59DED3E1
 P 10600 1200
 F 0 "#PWR039" H 10600 1050 50  0001 C CNN
@@ -341,7 +343,7 @@ F 3 "" H 10600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L sequencer-rescue:C-Device C2
 U 1 1 59DED9C5
 P 5600 1550
 F 0 "C2" H 5625 1650 50  0000 L CNN
@@ -355,7 +357,7 @@ F 6 "0603" H 5625 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L sequencer-rescue:GND-power #PWR040
 U 1 1 59DED9CB
 P 4200 1800
 F 0 "#PWR040" H 4200 1550 50  0001 C CNN
@@ -366,7 +368,7 @@ F 3 "" H 4200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR041
+L sequencer-rescue:GND-power #PWR041
 U 1 1 59DED9D1
 P 5300 1800
 F 0 "#PWR041" H 5300 1550 50  0001 C CNN
@@ -377,7 +379,7 @@ F 3 "" H 5300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L sequencer-rescue:GND-power #PWR042
 U 1 1 59DED9D7
 P 5600 1800
 F 0 "#PWR042" H 5600 1550 50  0001 C CNN
@@ -388,7 +390,7 @@ F 3 "" H 5600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR043
+L sequencer-rescue:GND-power #PWR043
 U 1 1 59DED9DD
 P 4750 1800
 F 0 "#PWR043" H 4750 1550 50  0001 C CNN
@@ -399,7 +401,7 @@ F 3 "" H 4750 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR044
+L sequencer-rescue:+5V-power #PWR044
 U 1 1 59DEDB3A
 P 5600 1200
 F 0 "#PWR044" H 5600 1050 50  0001 C CNN
@@ -410,7 +412,7 @@ F 3 "" H 5600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_ALT D1
+L sequencer-rescue:D_Schottky_ALT-Device D1
 U 1 1 59DF06B3
 P 4600 3250
 F 0 "D1" H 4600 3350 50  0000 C CNN
@@ -424,7 +426,7 @@ F 6 "SOT-23" H 4600 3450 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:-12V #PWR050
+L sequencer-rescue:-12V-power #PWR050
 U 1 1 59DF1046
 P 4000 2900
 F 0 "#PWR050" H 4000 3000 50  0001 C CNN
@@ -435,7 +437,7 @@ F 3 "" H 4000 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L sequencer-rescue:R-Device R8
 U 1 1 59DF10B1
 P 4250 3000
 F 0 "R8" V 4330 3000 50  0000 C CNN
@@ -449,7 +451,7 @@ F 6 "0603" H 4330 3100 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C1
+L sequencer-rescue:C-Device C1
 U 1 1 59DF1870
 P 4900 3250
 F 0 "C1" H 4925 3350 50  0000 L CNN
@@ -463,7 +465,7 @@ F 6 "0603" H 4925 3450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR045
+L sequencer-rescue:GND-power #PWR045
 U 1 1 59DF1FC9
 P 4600 3600
 F 0 "#PWR045" H 4600 3350 50  0001 C CNN
@@ -488,7 +490,7 @@ F 6 "SOT-23-5" H 2100 3400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR046
+L sequencer-rescue:+5V-power #PWR046
 U 1 1 59DFDC6E
 P 1600 2900
 F 0 "#PWR046" H 1600 2750 50  0001 C CNN
@@ -499,7 +501,7 @@ F 3 "" H 1600 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR047
+L sequencer-rescue:GND-power #PWR047
 U 1 1 59DFDCE5
 P 1600 3600
 F 0 "#PWR047" H 1600 3350 50  0001 C CNN
@@ -510,7 +512,7 @@ F 3 "" H 1600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L sequencer-rescue:R-Device R5
 U 1 1 59E00C96
 P 1400 3350
 F 0 "R5" V 1480 3350 50  0000 C CNN
@@ -524,7 +526,7 @@ F 6 "0603" H 1480 3450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L sequencer-rescue:GND-power #PWR0118
 U 1 1 59E00E5E
 P 1400 3600
 F 0 "#PWR0118" H 1400 3350 50  0001 C CNN
@@ -535,7 +537,7 @@ F 3 "" H 1400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C46
+L sequencer-rescue:CP1-Device C46
 U 1 1 59E0E120
 P 3000 1750
 F 0 "C46" H 3025 1850 50  0000 L CNN
@@ -549,7 +551,7 @@ F 6 "Panasonic D" H 3025 1950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C40
+L sequencer-rescue:CP1-Device C40
 U 1 1 59E0FE4F
 P 10300 1550
 F 0 "C40" H 10325 1650 50  0000 L CNN
@@ -563,7 +565,7 @@ F 6 "Panasonic C" H 10325 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C5
+L sequencer-rescue:CP1-Device C5
 U 1 1 59E0FEB0
 P 5300 1550
 F 0 "C5" H 5325 1650 50  0000 L CNN
@@ -577,7 +579,7 @@ F 6 "Panasonic C" H 5325 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead L2
+L sequencer-rescue:Ferrite_Bead-Device L2
 U 1 1 59E11A13
 P 9050 1300
 F 0 "L2" V 8900 1325 50  0000 C CNN
@@ -591,7 +593,7 @@ F 6 "0603" H 8900 1425 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C19
+L sequencer-rescue:C-Device C19
 U 1 1 59E52EDD
 P 6800 1550
 F 0 "C19" H 6825 1650 50  0000 L CNN
@@ -605,7 +607,7 @@ F 6 "0603" H 6825 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C35
+L sequencer-rescue:C-Device C35
 U 1 1 59E53513
 P 9300 1550
 F 0 "C35" H 9325 1650 50  0000 L CNN
@@ -619,7 +621,7 @@ F 6 "0603" H 9325 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L sequencer-rescue:C-Device C8
 U 1 1 59E535E8
 P 4200 1550
 F 0 "C8" H 4225 1650 50  0000 L CNN
@@ -633,7 +635,7 @@ F 6 "0603" H 4225 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG049
+L sequencer-rescue:PWR_FLAG-power #FLG049
 U 1 1 59F34CFD
 P 6800 1200
 F 0 "#FLG049" H 6800 1275 50  0001 C CNN
@@ -644,7 +646,7 @@ F 3 "" H 6800 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG050
+L sequencer-rescue:PWR_FLAG-power #FLG050
 U 1 1 59F34D75
 P 9300 1200
 F 0 "#FLG050" H 9300 1275 50  0001 C CNN
@@ -668,7 +670,7 @@ F 5 "R-78E5.0-1.0" H 4850 1300 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR051
+L sequencer-rescue:+5V-power #PWR051
 U 1 1 5AEF8A3B
 P 6300 1200
 F 0 "#PWR051" H 6300 1050 50  0001 C CNN
@@ -679,7 +681,7 @@ F 3 "" H 6300 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG052
+L sequencer-rescue:PWR_FLAG-power #FLG052
 U 1 1 5BBB58DA
 P 2100 1200
 F 0 "#FLG052" H 2100 1275 50  0001 C CNN
@@ -690,7 +692,7 @@ F 3 "" H 2100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG053
+L sequencer-rescue:PWR_FLAG-power #FLG053
 U 1 1 5BBB5936
 P 2100 1800
 F 0 "#FLG053" H 2100 1875 50  0001 C CNN
@@ -701,7 +703,7 @@ F 3 "" H 2100 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR054
+L sequencer-rescue:+5V-power #PWR054
 U 1 1 5BBB67BF
 P 8800 1200
 F 0 "#PWR054" H 8800 1050 50  0001 C CNN

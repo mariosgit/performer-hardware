@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -80,7 +80,7 @@ F 5 "TL1105SPF160Q" H 2050 1800 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L sequencer-rescue:D-Device D7
 U 1 1 59D9507A
 P 2400 1650
 F 0 "D7" H 2400 1750 50  0000 C CNN
@@ -90,11 +90,12 @@ F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pd
 F 4 "Diodes Inc." H 2400 1850 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 2400 1850 50  0001 C CNN "MFP"
 F 6 "SOD-123" H 2400 1850 50  0001 C CNN "Package"
+F 7 "C81598" H 2400 1650 50  0001 C CNN "LCSC"
 	1    2400 1650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D5
+L sequencer-rescue:D-Device D5
 U 1 1 59D950D5
 P 2400 2350
 F 0 "D5" H 2400 2450 50  0000 C CNN
@@ -108,7 +109,7 @@ F 6 "SOD-123" H 2400 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D14
+L sequencer-rescue:D-Device D14
 U 1 1 59D9524B
 P 2400 3050
 F 0 "D14" H 2400 3150 50  0000 C CNN
@@ -122,7 +123,7 @@ F 6 "SOD-123" H 2400 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D24
+L sequencer-rescue:D-Device D24
 U 1 1 59D952C4
 P 2400 3750
 F 0 "D24" H 2400 3850 50  0000 C CNN
@@ -136,7 +137,7 @@ F 6 "SOD-123" H 2400 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D33
+L sequencer-rescue:D-Device D33
 U 1 1 59D952CD
 P 2400 4450
 F 0 "D33" H 2400 4550 50  0000 C CNN
@@ -215,7 +216,7 @@ F 5 "TL1105SPF160Q" H 2950 1800 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D8
+L sequencer-rescue:D-Device D8
 U 1 1 59D955C1
 P 3300 1650
 F 0 "D8" H 3300 1750 50  0000 C CNN
@@ -229,7 +230,7 @@ F 6 "SOD-123" H 3300 1850 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D6
+L sequencer-rescue:D-Device D6
 U 1 1 59D955C7
 P 3300 2350
 F 0 "D6" H 3300 2450 50  0000 C CNN
@@ -243,7 +244,7 @@ F 6 "SOD-123" H 3300 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D15
+L sequencer-rescue:D-Device D15
 U 1 1 59D955D0
 P 3300 3050
 F 0 "D15" H 3300 3150 50  0000 C CNN
@@ -257,7 +258,7 @@ F 6 "SOD-123" H 3300 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D25
+L sequencer-rescue:D-Device D25
 U 1 1 59D955D9
 P 3300 3750
 F 0 "D25" H 3300 3850 50  0000 C CNN
@@ -271,7 +272,7 @@ F 6 "SOD-123" H 3300 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D35
+L sequencer-rescue:D-Device D35
 U 1 1 59D955E2
 P 3300 4450
 F 0 "D35" H 3300 4550 50  0000 C CNN
@@ -350,7 +351,7 @@ F 5 "TL1105SPF160Q" H 3850 1800 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D9
+L sequencer-rescue:D-Device D9
 U 1 1 59D95864
 P 4200 1650
 F 0 "D9" H 4200 1750 50  0000 C CNN
@@ -364,7 +365,7 @@ F 6 "SOD-123" H 4200 1850 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D12
+L sequencer-rescue:D-Device D12
 U 1 1 59D9586A
 P 4200 2350
 F 0 "D12" H 4200 2450 50  0000 C CNN
@@ -378,7 +379,7 @@ F 6 "SOD-123" H 4200 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D16
+L sequencer-rescue:D-Device D16
 U 1 1 59D95873
 P 4200 3050
 F 0 "D16" H 4200 3150 50  0000 C CNN
@@ -392,7 +393,7 @@ F 6 "SOD-123" H 4200 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D26
+L sequencer-rescue:D-Device D26
 U 1 1 59D9587C
 P 4200 3750
 F 0 "D26" H 4200 3850 50  0000 C CNN
@@ -406,7 +407,7 @@ F 6 "SOD-123" H 4200 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D36
+L sequencer-rescue:D-Device D36
 U 1 1 59D95885
 P 4200 4450
 F 0 "D36" H 4200 4550 50  0000 C CNN
@@ -485,7 +486,7 @@ F 5 "TL1105SPF160Q" H 4750 1800 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D10
+L sequencer-rescue:D-Device D10
 U 1 1 59D958C3
 P 5100 1650
 F 0 "D10" H 5100 1750 50  0000 C CNN
@@ -499,7 +500,7 @@ F 6 "SOD-123" H 5100 1850 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D13
+L sequencer-rescue:D-Device D13
 U 1 1 59D958C9
 P 5100 2350
 F 0 "D13" H 5100 2450 50  0000 C CNN
@@ -513,7 +514,7 @@ F 6 "SOD-123" H 5100 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D17
+L sequencer-rescue:D-Device D17
 U 1 1 59D958D2
 P 5100 3050
 F 0 "D17" H 5100 3150 50  0000 C CNN
@@ -527,7 +528,7 @@ F 6 "SOD-123" H 5100 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D27
+L sequencer-rescue:D-Device D27
 U 1 1 59D958DB
 P 5100 3750
 F 0 "D27" H 5100 3850 50  0000 C CNN
@@ -541,7 +542,7 @@ F 6 "SOD-123" H 5100 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D37
+L sequencer-rescue:D-Device D37
 U 1 1 59D958E4
 P 5100 4450
 F 0 "D37" H 5100 4550 50  0000 C CNN
@@ -620,7 +621,7 @@ F 5 "TL1105SPF160Q" H 5650 1800 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
+L sequencer-rescue:D-Device D11
 U 1 1 59D960A7
 P 6000 1650
 F 0 "D11" H 6000 1750 50  0000 C CNN
@@ -634,7 +635,7 @@ F 6 "SOD-123" H 6000 1850 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D22
+L sequencer-rescue:D-Device D22
 U 1 1 59D960AD
 P 6000 2350
 F 0 "D22" H 6000 2450 50  0000 C CNN
@@ -648,7 +649,7 @@ F 6 "SOD-123" H 6000 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D18
+L sequencer-rescue:D-Device D18
 U 1 1 59D960B6
 P 6000 3050
 F 0 "D18" H 6000 3150 50  0000 C CNN
@@ -662,7 +663,7 @@ F 6 "SOD-123" H 6000 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D28
+L sequencer-rescue:D-Device D28
 U 1 1 59D960BF
 P 6000 3750
 F 0 "D28" H 6000 3850 50  0000 C CNN
@@ -676,7 +677,7 @@ F 6 "SOD-123" H 6000 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D38
+L sequencer-rescue:D-Device D38
 U 1 1 59D960C8
 P 6000 4450
 F 0 "D38" H 6000 4550 50  0000 C CNN
@@ -742,7 +743,7 @@ F 5 "TL1105SPF160Q" H 6550 2500 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
+L sequencer-rescue:D-Device D23
 U 1 1 59D96115
 P 6900 2350
 F 0 "D23" H 6900 2450 50  0000 C CNN
@@ -756,7 +757,7 @@ F 6 "SOD-123" H 6900 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D19
+L sequencer-rescue:D-Device D19
 U 1 1 59D9611E
 P 6900 3050
 F 0 "D19" H 6900 3150 50  0000 C CNN
@@ -770,7 +771,7 @@ F 6 "SOD-123" H 6900 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D29
+L sequencer-rescue:D-Device D29
 U 1 1 59D96127
 P 6900 3750
 F 0 "D29" H 6900 3850 50  0000 C CNN
@@ -784,7 +785,7 @@ F 6 "SOD-123" H 6900 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D39
+L sequencer-rescue:D-Device D39
 U 1 1 59D96130
 P 6900 4450
 F 0 "D39" H 6900 4550 50  0000 C CNN
@@ -850,7 +851,7 @@ F 5 "TL1105SPF160Q" H 7450 2500 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L sequencer-rescue:D-Device D34
 U 1 1 59D9617D
 P 7800 2350
 F 0 "D34" H 7800 2450 50  0000 C CNN
@@ -864,7 +865,7 @@ F 6 "SOD-123" H 7800 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D20
+L sequencer-rescue:D-Device D20
 U 1 1 59D96186
 P 7800 3050
 F 0 "D20" H 7800 3150 50  0000 C CNN
@@ -878,7 +879,7 @@ F 6 "SOD-123" H 7800 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D30
+L sequencer-rescue:D-Device D30
 U 1 1 59D9618F
 P 7800 3750
 F 0 "D30" H 7800 3850 50  0000 C CNN
@@ -892,7 +893,7 @@ F 6 "SOD-123" H 7800 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D40
+L sequencer-rescue:D-Device D40
 U 1 1 59D96198
 P 7800 4450
 F 0 "D40" H 7800 4550 50  0000 C CNN
@@ -958,7 +959,7 @@ F 5 "TL1105SPF160Q" H 8350 2500 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D32
+L sequencer-rescue:D-Device D32
 U 1 1 59D961E5
 P 8700 2350
 F 0 "D32" H 8700 2450 50  0000 C CNN
@@ -972,7 +973,7 @@ F 6 "SOD-123" H 8700 2550 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D21
+L sequencer-rescue:D-Device D21
 U 1 1 59D961EE
 P 8700 3050
 F 0 "D21" H 8700 3150 50  0000 C CNN
@@ -986,7 +987,7 @@ F 6 "SOD-123" H 8700 3250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D31
+L sequencer-rescue:D-Device D31
 U 1 1 59D961F7
 P 8700 3750
 F 0 "D31" H 8700 3850 50  0000 C CNN
@@ -1000,7 +1001,7 @@ F 6 "SOD-123" H 8700 3950 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D41
+L sequencer-rescue:D-Device D41
 U 1 1 59D96200
 P 8700 4450
 F 0 "D41" H 8700 4550 50  0000 C CNN

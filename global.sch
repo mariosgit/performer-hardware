@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -38,6 +38,7 @@ F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid
 F 4 "Texas Instruments" H 4600 4550 50  0001 C CNN "MFN"
 F 5 "SN74HC165D" H 4600 4550 50  0001 C CNN "MFP"
 F 6 "SOIC-16" H 4600 4550 50  0001 C CNN "Package"
+F 7 "C5613" H 4100 5300 50  0001 C CNN "LCSC"
 	1    4100 5300
 	1    0    0    -1  
 $EndComp
@@ -52,6 +53,7 @@ F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid
 F 4 "Texas Instruments" H 4600 350 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 4600 350 50  0001 C CNN "MFP"
 F 6 "SOIC-16" H 4600 350 50  0001 C CNN "Package"
+F 7 "C5947" H 4100 1100 50  0001 C CNN "LCSC"
 	1    4100 1100
 	1    0    0    -1  
 $EndComp
@@ -84,7 +86,7 @@ F 6 "SOIC-16" H 4600 3150 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L sequencer-rescue:GND-power #PWR01
 U 1 1 59DAC8B2
 P 4000 4700
 F 0 "#PWR01" H 4000 4450 50  0001 C CNN
@@ -95,7 +97,7 @@ F 3 "" H 4000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L sequencer-rescue:GND-power #PWR02
 U 1 1 59DAC8DB
 P 4000 3300
 F 0 "#PWR02" H 4000 3050 50  0001 C CNN
@@ -106,7 +108,7 @@ F 3 "" H 4000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L sequencer-rescue:GND-power #PWR03
 U 1 1 59DAC904
 P 4000 1900
 F 0 "#PWR03" H 4000 1650 50  0001 C CNN
@@ -117,7 +119,7 @@ F 3 "" H 4000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR04
+L sequencer-rescue:+5V-power #PWR04
 U 1 1 59DACCD2
 P 4000 1000
 F 0 "#PWR04" H 4000 850 50  0001 C CNN
@@ -128,7 +130,7 @@ F 3 "" H 4000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR05
+L sequencer-rescue:+5V-power #PWR05
 U 1 1 59DACCFB
 P 4000 2400
 F 0 "#PWR05" H 4000 2250 50  0001 C CNN
@@ -139,7 +141,7 @@ F 3 "" H 4000 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR06
+L sequencer-rescue:+5V-power #PWR06
 U 1 1 59DACD24
 P 4000 3800
 F 0 "#PWR06" H 4000 3650 50  0001 C CNN
@@ -150,7 +152,7 @@ F 3 "" H 4000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L sequencer-rescue:C-Device C6
 U 1 1 59DAD327
 P 1400 5450
 F 0 "C6" H 1425 5550 50  0000 L CNN
@@ -160,11 +162,12 @@ F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.
 F 4 "Murata" H 1425 5650 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 1425 5650 50  0001 C CNN "MFP"
 F 6 "0603" H 1425 5650 50  0001 C CNN "Package"
+F 7 "C14663" H 1400 5450 50  0001 C CNN "LCSC"
 	1    1400 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C43
+L sequencer-rescue:C-Device C43
 U 1 1 59DAD399
 P 1700 5450
 F 0 "C43" H 1725 5550 50  0000 L CNN
@@ -178,7 +181,7 @@ F 6 "0603" H 1725 5650 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C44
+L sequencer-rescue:C-Device C44
 U 1 1 59DAD3D5
 P 2000 5450
 F 0 "C44" H 2025 5550 50  0000 L CNN
@@ -192,7 +195,7 @@ F 6 "0603" H 2025 5650 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C45
+L sequencer-rescue:C-Device C45
 U 1 1 59DAD3DB
 P 2300 5450
 F 0 "C45" H 2325 5550 50  0000 L CNN
@@ -206,7 +209,7 @@ F 6 "0603" H 2325 5650 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L sequencer-rescue:GND-power #PWR07
 U 1 1 59DADBC6
 P 4000 6100
 F 0 "#PWR07" H 4000 5850 50  0001 C CNN
@@ -217,7 +220,7 @@ F 3 "" H 4000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR08
+L sequencer-rescue:+5V-power #PWR08
 U 1 1 59DADC53
 P 4000 5200
 F 0 "#PWR08" H 4000 5050 50  0001 C CNN
@@ -228,7 +231,7 @@ F 3 "" H 4000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L sequencer-rescue:GND-power #PWR09
 U 1 1 59DAEC89
 P 5200 6100
 F 0 "#PWR09" H 5200 5850 50  0001 C CNN
@@ -239,7 +242,7 @@ F 3 "" H 5200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C49
+L sequencer-rescue:C-Device C49
 U 1 1 59DB526D
 P 2600 5450
 F 0 "C49" H 2625 5550 50  0000 L CNN
@@ -253,7 +256,7 @@ F 6 "0603" H 2625 5650 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR010
+L sequencer-rescue:+5V-power #PWR010
 U 1 1 59DB575D
 P 1300 5100
 F 0 "#PWR010" H 1300 4950 50  0001 C CNN
@@ -264,7 +267,7 @@ F 3 "" H 1300 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L sequencer-rescue:GND-power #PWR011
 U 1 1 59DB5795
 P 1300 5800
 F 0 "#PWR011" H 1300 5550 50  0001 C CNN
@@ -288,7 +291,7 @@ F 5 "NHD-3.12-25664UCY2" H 10450 1750 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Micro_SD_Card JP2
+L sequencer-rescue:Micro_SD_Card-Connector JP2
 U 1 1 59DC0C9C
 P 9600 1900
 F 0 "JP2" H 8950 2500 50  0000 C CNN
@@ -301,7 +304,7 @@ F 5 "PJS008U-3000-0" H 8950 2600 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR012
+L sequencer-rescue:+3.3V-power #PWR012
 U 1 1 59DD8249
 P 8600 1050
 F 0 "#PWR012" H 8600 900 50  0001 C CNN
@@ -312,7 +315,7 @@ F 3 "" H 8600 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L sequencer-rescue:GND-power #PWR013
 U 1 1 59DD828A
 P 8600 2900
 F 0 "#PWR013" H 8600 2650 50  0001 C CNN
@@ -323,7 +326,7 @@ F 3 "" H 8600 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L sequencer-rescue:GND-power #PWR014
 U 1 1 59DD85C7
 P 10500 2900
 F 0 "#PWR014" H 10500 2650 50  0001 C CNN
@@ -334,7 +337,7 @@ F 3 "" H 10500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L sequencer-rescue:GND-power #PWR015
 U 1 1 59DDC96B
 P 9700 5900
 F 0 "#PWR015" H 9700 5650 50  0001 C CNN
@@ -345,7 +348,7 @@ F 3 "" H 9700 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR016
+L sequencer-rescue:+3.3V-power #PWR016
 U 1 1 59DDCA82
 P 9600 3600
 F 0 "#PWR016" H 9600 3450 50  0001 C CNN
@@ -356,7 +359,7 @@ F 3 "" H 9600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L sequencer-rescue:GND-power #PWR017
 U 1 1 59DDD81F
 P 8400 5900
 F 0 "#PWR017" H 8400 5650 50  0001 C CNN
@@ -367,7 +370,7 @@ F 3 "" H 8400 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L sequencer-rescue:GND-power #PWR018
 U 1 1 59DDDDF7
 P 7100 5900
 F 0 "#PWR018" H 7100 5650 50  0001 C CNN
@@ -378,7 +381,7 @@ F 3 "" H 7100 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_A JP1
+L sequencer-rescue:USB_A-Connector JP1
 U 1 1 59DE5EB2
 P 7600 3900
 F 0 "JP1" H 7400 4350 50  0000 L CNN
@@ -391,7 +394,7 @@ F 5 "105057-0001" H 7600 3900 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L sequencer-rescue:GND-power #PWR019
 U 1 1 59E06450
 P 7600 4500
 F 0 "#PWR019" H 7600 4250 50  0001 C CNN
@@ -402,7 +405,7 @@ F 3 "" H 7600 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R50
+L sequencer-rescue:R-Device R50
 U 1 1 59E55F0E
 P 5300 5150
 F 0 "R50" V 5250 5300 50  0000 L CNN
@@ -412,11 +415,12 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pd
 F 4 "Panasonic" H 5250 5400 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 5250 5400 50  0001 C CNN "MFP"
 F 6 "0603" H 5250 5400 50  0001 C CNN "Package"
+F 7 "C25804" V 5300 5150 50  0001 C CNN "LCSC"
 	1    5300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R55
+L sequencer-rescue:R-Device R55
 U 1 1 59E560D3
 P 5400 5150
 F 0 "R55" V 5350 5300 50  0000 L CNN
@@ -430,7 +434,7 @@ F 6 "0603" H 5350 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R58
+L sequencer-rescue:R-Device R58
 U 1 1 59E56118
 P 5500 5150
 F 0 "R58" V 5450 5300 50  0000 L CNN
@@ -444,7 +448,7 @@ F 6 "0603" H 5450 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R61
+L sequencer-rescue:R-Device R61
 U 1 1 59E56160
 P 5600 5150
 F 0 "R61" V 5550 5300 50  0000 L CNN
@@ -458,7 +462,7 @@ F 6 "0603" H 5550 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R49
+L sequencer-rescue:R-Device R49
 U 1 1 59E561AB
 P 5700 5150
 F 0 "R49" V 5650 5300 50  0000 L CNN
@@ -472,7 +476,7 @@ F 6 "0603" H 5650 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR020
+L sequencer-rescue:+5V-power #PWR020
 U 1 1 59E571E6
 P 6200 4700
 F 0 "#PWR020" H 6200 4550 50  0001 C CNN
@@ -483,7 +487,7 @@ F 3 "" H 6200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R76
+L sequencer-rescue:R-Device R76
 U 1 1 59E604C8
 P 5350 2600
 F 0 "R76" V 5300 2750 50  0000 L CNN
@@ -493,11 +497,12 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pd
 F 4 "Panasonic" H 5300 2850 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1001V" H 5300 2850 50  0001 C CNN "MFP"
 F 6 "0603" H 5300 2850 50  0001 C CNN "Package"
+F 7 "C21190" V 5350 2600 50  0001 C CNN "LCSC"
 	1    5350 2600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R77
+L sequencer-rescue:R-Device R77
 U 1 1 59E60528
 P 5350 2500
 F 0 "R77" V 5300 2650 50  0000 L CNN
@@ -511,7 +516,7 @@ F 6 "0603" H 5300 2750 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R75
+L sequencer-rescue:R-Device R75
 U 1 1 59E60C94
 P 5350 2700
 F 0 "R75" V 5300 2850 50  0000 L CNN
@@ -525,7 +530,7 @@ F 6 "0603" H 5300 2950 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R74
+L sequencer-rescue:R-Device R74
 U 1 1 59E60F5A
 P 5350 2800
 F 0 "R74" V 5300 2950 50  0000 L CNN
@@ -539,7 +544,7 @@ F 6 "0603" H 5300 3050 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R70
+L sequencer-rescue:R-Device R70
 U 1 1 59E61471
 P 5350 3200
 F 0 "R70" V 5300 3350 50  0000 L CNN
@@ -553,7 +558,7 @@ F 6 "0603" H 5300 3450 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R71
+L sequencer-rescue:R-Device R71
 U 1 1 59E6153A
 P 5350 3100
 F 0 "R71" V 5300 3250 50  0000 L CNN
@@ -567,7 +572,7 @@ F 6 "0603" H 5300 3350 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R72
+L sequencer-rescue:R-Device R72
 U 1 1 59E61584
 P 5350 3000
 F 0 "R72" V 5300 3150 50  0000 L CNN
@@ -581,7 +586,7 @@ F 6 "0603" H 5300 3250 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R73
+L sequencer-rescue:R-Device R73
 U 1 1 59E6158A
 P 5350 2900
 F 0 "R73" V 5300 3050 50  0000 L CNN
@@ -605,11 +610,12 @@ F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917456&ppid=464455&si
 F 4 "Texas Instruments" H 1600 1000 60  0001 C CNN "MFN"
 F 5 "SN74HCT125D" H 1600 1000 60  0001 C CNN "MFP"
 F 6 "SOIC-14" H 2100 50  50  0001 C CNN "Package"
+F 7 "C5962" H 1600 1000 50  0001 C CNN "LCSC"
 	1    1600 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L sequencer-rescue:GND-power #PWR021
 U 1 1 59E5F67D
 P 1500 2000
 F 0 "#PWR021" H 1500 1750 50  0001 C CNN
@@ -620,7 +626,7 @@ F 3 "" H 1500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR022
+L sequencer-rescue:+5V-power #PWR022
 U 1 1 59E5F6E5
 P 1500 900
 F 0 "#PWR022" H 1500 750 50  0001 C CNN
@@ -631,7 +637,7 @@ F 3 "" H 1500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L sequencer-rescue:R-Device R13
 U 1 1 5AEA4C2A
 P 8400 1350
 F 0 "R13" V 8480 1350 50  0000 C CNN
@@ -641,11 +647,12 @@ F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf
 F 4 "Panasonic" H 8480 1450 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF3302V" H 8480 1450 50  0001 C CNN "MFP"
 F 6 "0603" H 8480 1450 50  0001 C CNN "Package"
+F 7 "C4216" V 8400 1350 50  0001 C CNN "LCSC"
 	1    8400 1350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R9
+L sequencer-rescue:R-Device R9
 U 1 1 5AEA4CDA
 P 8400 2550
 F 0 "R9" V 8480 2550 50  0000 C CNN
@@ -655,11 +662,12 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pd
 F 4 "Panasonic" H 8480 2650 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1004V" H 8480 2650 50  0001 C CNN "MFP"
 F 6 "0603" H 8480 2650 50  0001 C CNN "Package"
+F 7 "C22935" V 8400 2550 50  0001 C CNN "LCSC"
 	1    8400 2550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R10
+L sequencer-rescue:R-Device R10
 U 1 1 5AEA4D5E
 P 7800 1350
 F 0 "R10" V 7880 1350 50  0000 C CNN
@@ -673,7 +681,7 @@ F 6 "0603" H 7880 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R11
+L sequencer-rescue:R-Device R11
 U 1 1 5AEA4DC8
 P 8000 1350
 F 0 "R11" V 8080 1350 50  0000 C CNN
@@ -687,7 +695,7 @@ F 6 "0603" H 8080 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R12
+L sequencer-rescue:R-Device R12
 U 1 1 5AEA93F2
 P 8200 1350
 F 0 "R12" V 8280 1350 50  0000 C CNN
@@ -701,7 +709,7 @@ F 6 "0603" H 8280 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R36
+L sequencer-rescue:R-Device R36
 U 1 1 5AEB2AD1
 P 9500 5550
 F 0 "R36" V 9580 5550 50  0000 C CNN
@@ -715,7 +723,7 @@ F 6 "0603" H 9580 5650 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MMBT3904 Q5
+L sequencer-rescue:MMBT3904-Transistor_BJT Q5
 U 1 1 5AEB9A70
 P 2600 2900
 F 0 "Q5" H 2800 2975 50  0000 L CNN
@@ -725,11 +733,12 @@ F 3 "http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971
 F 4 "ON Semiconductor" H 2800 3075 50  0001 C CNN "MFN"
 F 5 "MMBT3904LT1G" H 2800 3075 50  0001 C CNN "MFP"
 F 6 "SOT-23" H 2800 3075 50  0001 C CNN "Package"
+F 7 "C20526" H 2600 2900 50  0001 C CNN "LCSC"
 	1    2600 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R67
+L sequencer-rescue:R-Device R67
 U 1 1 5AEB9A79
 P 2700 2350
 F 0 "R67" V 2780 2350 50  0000 C CNN
@@ -743,7 +752,7 @@ F 6 "0603" H 2780 2450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L sequencer-rescue:GND-power #PWR023
 U 1 1 5AEB9A80
 P 2700 3500
 F 0 "#PWR023" H 2700 3250 50  0001 C CNN
@@ -754,7 +763,7 @@ F 3 "" H 2700 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR024
+L sequencer-rescue:+5V-power #PWR024
 U 1 1 5AEB9A86
 P 2700 2100
 F 0 "#PWR024" H 2700 1950 50  0001 C CNN
@@ -765,7 +774,7 @@ F 3 "" H 2700 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R66
+L sequencer-rescue:R-Device R66
 U 1 1 5AEBCC66
 P 2050 2900
 F 0 "R66" V 2130 2900 50  0000 C CNN
@@ -775,11 +784,12 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pd
 F 4 "Panasonic" H 2130 3000 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 2130 3000 50  0001 C CNN "MFP"
 F 6 "0603" H 2130 3000 50  0001 C CNN "Package"
+F 7 "C25803" V 2050 2900 50  0001 C CNN "LCSC"
 	1    2050 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R69
+L sequencer-rescue:R-Device R69
 U 1 1 5AEBCE61
 P 2300 3150
 F 0 "R69" V 2380 3150 50  0000 C CNN
