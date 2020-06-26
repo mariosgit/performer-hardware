@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:sequencer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -784,7 +783,6 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pd
 F 4 "Panasonic" H 2130 3000 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 2130 3000 50  0001 C CNN "MFP"
 F 6 "0603" H 2130 3000 50  0001 C CNN "Package"
-F 7 "C25803" V 2050 2900 50  0001 C CNN "LCSC"
 	1    2050 2900
 	0    1    1    0   
 $EndComp
@@ -1044,10 +1042,6 @@ Wire Wire Line
 	5100 6000 5200 6000
 Wire Wire Line
 	4100 5900 4000 5900
-Wire Wire Line
-	3700 5500 4100 5500
-Wire Wire Line
-	3700 5700 4100 5700
 Wire Wire Line
 	5100 5300 5300 5300
 Wire Wire Line
@@ -1506,4 +1500,8 @@ Wire Wire Line
 	2300 2900 2400 2900
 Wire Wire Line
 	2700 3400 2700 3500
+Wire Wire Line
+	3700 5700 4100 5700
+Wire Wire Line
+	3700 5500 4100 5500
 $EndSCHEMATC

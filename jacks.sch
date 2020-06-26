@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:sequencer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -63,6 +62,7 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pd
 F 4 "Panasonic" H 1530 1800 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 1530 1800 50  0001 C CNN "MFP"
 F 6 "0603" H 1530 1800 50  0001 C CNN "Package"
+F 7 "C25803" V 1450 1700 50  0001 C CNN "LCSC"
 	1    1450 1700
 	0    1    1    0   
 $EndComp
@@ -2285,10 +2285,10 @@ Wire Wire Line
 Text Notes 5500 875  0    51   ~ 0
 korg: ring=5V tip=signal\n-> jp pos 2-3
 $Comp
-L Jumper:SolderJumper_3_Open JP?
+L Jumper:SolderJumper_3_Open JP11
 U 1 1 5F1CCD60
 P 5700 2700
-F 0 "JP?" V 5750 2425 50  0000 L CNN
+F 0 "JP11" V 5750 2425 50  0000 L CNN
 F 1 "out/through" V 5650 2075 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 5700 2700 50  0001 C CNN
 F 3 "~" H 5700 2700 50  0001 C CNN
