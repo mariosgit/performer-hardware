@@ -784,7 +784,6 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pd
 F 4 "Panasonic" H 2130 3000 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 2130 3000 50  0001 C CNN "MFP"
 F 6 "0603" H 2130 3000 50  0001 C CNN "Package"
-F 7 "C25803" V 2050 2900 50  0001 C CNN "LCSC"
 	1    2050 2900
 	0    1    1    0   
 $EndComp
@@ -799,6 +798,7 @@ F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pd
 F 4 "Panasonic" H 2380 3250 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 2380 3250 50  0001 C CNN "MFP"
 F 6 "0603" H 2380 3250 50  0001 C CNN "Package"
+F 7 "C25803" V 2300 3150 50  0001 C CNN "LCSC"
 	1    2300 3150
 	1    0    0    -1  
 $EndComp
