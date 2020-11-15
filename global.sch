@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:sequencer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1045,10 +1044,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 5900 4000 5900
 Wire Wire Line
-	3700 5500 4100 5500
-Wire Wire Line
-	3700 5700 4100 5700
-Wire Wire Line
 	5100 5300 5300 5300
 Wire Wire Line
 	5100 5400 5400 5400
@@ -1506,4 +1501,8 @@ Wire Wire Line
 	2300 2900 2400 2900
 Wire Wire Line
 	2700 3400 2700 3500
+Wire Wire Line
+	3700 5700 4100 5700
+Wire Wire Line
+	3700 5500 4100 5500
 $EndSCHEMATC
